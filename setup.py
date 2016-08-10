@@ -9,9 +9,8 @@ setup(
     AuthorO_email='joaoxsouls@gmail.com',
     url='https://github.com/getsentry/sentry/',
     install_requires=[
-        'sentry',
-        'psycopg2',
+        'sentry==8.7.0',
+        'psycopg2==2.6.0',
         'flake8'
-        'redis'
     ],
 )
